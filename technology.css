@@ -58,3 +58,7 @@
 .holo-dialog button:hover{background:#fff0cb;color:#163336}.holo-dialog .holo-close{font-size:1.48rem}
 .holo-controls span{font-size:.75rem;white-space:nowrap}
 @media(min-width:730px){.holo-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.holo-shot figcaption{padding:.8rem .9rem}}
+
+.tech-network{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,150px),1fr));gap:.65rem;margin:1.3rem 0 0}
+.tech-network div{border:1px solid var(--line);border-top:3px solid #997946;border-radius:12px;padding:.8rem;background:var(--white)}
+.tech-network dt{font-weight:800}.tech-network dd{margin:.28rem 0 0;font-size:.82rem;color:var(--muted)}
